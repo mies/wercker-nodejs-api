@@ -7,7 +7,7 @@ app.get('/', function(req, res){
 
 app.get('/insecticons.json', function(req, res){
   res.writeHead(200, { 'Content-Type': 'application/json' });
-  res.write(JSON.stringify({insecticons : ["foo","bar"]}));
+  res.write(JSON.stringify({insecticons : ["Shrapnel","Bombshell", "Kickback"]}));
   res.end();
 });
 

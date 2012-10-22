@@ -5,11 +5,13 @@
   "node": "0.6.x"
   },
   "dependencies": {
-    "express": "2.5.11",
-    "nodeunit": "0.7.4"
+    "express": "3.x",
+    "nodeunit": "0.7.4",
+    "supertest" : "0.4.0",
+    "mocha" : "1.6.0"
   },
   "scripts": {
-    "test": "nodeunit test",
+    "test": "mocha",
     "start": "app.js"
   }
 }
